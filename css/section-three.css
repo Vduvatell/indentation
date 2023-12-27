@@ -1,0 +1,39 @@
+.section-three {
+  padding-bottom: 56px;
+}
+
+.section-three__title {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.section-three__text {
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.section-three__text:last-child {
+  margin-bottom: 0;
+}
+
+.section-three__img {
+  margin-bottom: 30px;
+  margin-inline: auto;
+}
+
+.text-image {
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  border: 1px solid #000;
+}
+
+.text-image__image {
+  margin-bottom: 15px;
+}
+
+.text-image__text {
+  padding-inline: 30px;
+  color: #5E5E5E;
+}

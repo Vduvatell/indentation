@@ -1,0 +1,23 @@
+.section-four {
+  padding-bottom: 50px;
+}
+
+.section-four__title {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.section-four__text {
+  margin-bottom: 30px;
+}
+
+.section-four__img {
+  margin-bottom: 30px;
+  margin-inline: auto;
+}
+
+.section-four__img:last-child {
+  margin-bottom: 0;
+}

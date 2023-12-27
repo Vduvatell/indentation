@@ -1,0 +1,31 @@
+.last-section {
+  padding-bottom: 50px;
+}
+
+.last-section__container {
+  margin-inline: auto;
+  max-width: 1140px;
+  padding-block: 25px;
+  padding-inline:30px 45px;
+  background-color: #F1F1F1;
+  border-radius: 10px;
+}
+
+.last-section__title {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.last-section__list {
+  margin-bottom: 30px;
+}
+
+.last-section__item {
+  line-height: 120%;
+}
+
+.last-section__item:not(:last-child) {
+  margin-bottom: 10px;
+}
