@@ -1,18 +1,14 @@
-.section-one {
-  padding-block: 60px 50px;
-}
-
-.section-one__title {
+.article__title {
   font-size: 60px;
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 30px;
 }
 
-.section-one__text {
+.article__text {
   line-height: 120%;
 }
 
-.section-one__text:not(:last-child) {
+.article__text:not(:last-child) {
   margin-bottom: 30px;
 }

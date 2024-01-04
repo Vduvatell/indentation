@@ -1,11 +1,11 @@
-@import "section-one.css";
+@import "article.css";
 
-@import "soderjanie.css";
+@import "navigation.css";
 
-@import "section-two.css";
+@import "indent-next-el.css";
 
-@import "section-three.css";
+@import "indent-last-dom.css";
 
-@import "section-four.css";
+@import "reset-last-el.css";
 
-@import "last-section.css";
+@import "results.css";

@@ -1,8 +1,4 @@
-.soderjanie {
-  padding-bottom: 50px;
-}
-
-.soderjanie-container {
+.navigation-container {
   margin-inline: auto;
   max-width: 1140px;
   border-radius: 10px;
@@ -11,30 +7,30 @@
   padding-left: 45px;
 }
 
-.soderjanie__title {
+.navigation__title {
   font-size: 44px;
   font-weight: 700;
   line-height: 120%;
   margin-bottom: 20px;
 }
 
-.soderjanie__list {
+.navigation__list {
   padding-left: 5px;
 }
 
-.soderjanie__item {
+.navigation__item {
   line-height: 120%;
 }
 
-.soderjanie__item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.soderjanie__number {
+.navigation__number {
   color: #02535F;
 }
 
-.soderjanie__link {
+.navigation__link {
   color: #02535F;
   border-bottom: 1px #000 solid;
 }

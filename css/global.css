@@ -116,8 +116,24 @@ iframe {
 Чтобы контент не прижимался к краям экрана
 */
 
+.article {
+  padding-block: 60px 50px;
+}
+
 .container {
   max-width: 1440px;
-  padding: 0 180px;
+  padding: 25px 150px;
   margin: 0 auto;
+}
+
+.container__article-first {
+  padding-top: 0;
+}
+
+.container__results {
+  padding-bottom: 0;
+}
+
+.container__wrapper {
+  padding-inline: 30px;
 }

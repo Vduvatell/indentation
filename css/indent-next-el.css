@@ -1,43 +1,42 @@
-.section-two {
-  padding-bottom: 44px;
-}
-
-.section-two__title {
+.indent-next-el__title {
   font-size: 36px;
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 30px;
 }
 
-.section-two__image {
+.block_one {
+  margin-bottom: 25px;
+}
+
+.block__image {
   display: inline-block;
   width: 560px;
 }
 
-.section-two__image-one {
+.block__image-one {
   margin-right: 25px;
-  margin-bottom: 30px;
 }
 
-.section-two__text {
+.block__text {
   display: inline-block;
   vertical-align: top;
 }
 
-.section-two__text-one {
+.block__text-one {
   width: 490px;
 }
 
-.section-two__text-two {
+.block__text-two {
   width: 480px;
   margin-right: 35px;
 }
 
-.section-two__inner-text {
+.block__inner-text {
   margin-bottom: 30px;
   line-height: 120%;
 }
 
-.section-two__inner-text:last-child {
+.block__inner-text:last-child {
   margin-bottom: 0;
 }

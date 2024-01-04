@@ -1,24 +1,20 @@
-.section-three {
-  padding-bottom: 56px;
-}
-
-.section-three__title {
+.indent-last-dom__title {
   font-size: 36px;
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 30px;
 }
 
-.section-three__text {
+.indent-last-dom__text {
   line-height: 120%;
   margin-bottom: 30px;
 }
 
-.section-three__text:last-child {
+.indent-last-dom__text:last-child {
   margin-bottom: 0;
 }
 
-.section-three__img {
+.indent-last-dom__img {
   margin-bottom: 30px;
   margin-inline: auto;
 }

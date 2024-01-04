@@ -1,31 +1,31 @@
-.last-section {
-  padding-bottom: 50px;
-}
-
-.last-section__container {
+.results__container {
   margin-inline: auto;
   max-width: 1140px;
-  padding-block: 25px;
-  padding-inline:30px 45px;
   background-color: #F1F1F1;
   border-radius: 10px;
+  padding-block: 25px;
+  padding-inline: 30px 45px;
 }
 
-.last-section__title {
+.results__title {
   margin-bottom: 20px;
   font-size: 44px;
   font-weight: 700;
   line-height: 120%;
 }
 
-.last-section__list {
+.results__list {
   margin-bottom: 30px;
 }
 
-.last-section__item {
+.results__item {
   line-height: 120%;
 }
 
-.last-section__item:not(:last-child) {
+.results__item:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.results__text {
+  line-height: 120%;
 }
