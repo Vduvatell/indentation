@@ -117,12 +117,13 @@ iframe {
 */
 
 .article {
-  padding-block: 60px 50px;
+  max-width: 1440px;
+  padding: 60px 150px 50px;
+  margin: 0 auto;
 }
 
 .container {
-  max-width: 1440px;
-  padding: 25px 150px;
+  padding: 25px 30px;
   margin: 0 auto;
 }
 
@@ -132,8 +133,4 @@ iframe {
 
 .container__results {
   padding-bottom: 0;
-}
-
-.container__wrapper {
-  padding-inline: 30px;
 }
