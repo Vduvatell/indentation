@@ -1,11 +1,14 @@
 .navigation {
-  margin-inline: auto;
+  padding-block: 25px;
+}
+
+.navigation-container {
+  margin: 0 auto;
   max-width: 1140px;
-  border-radius: 10px;
   background: #F1F1F1;
+  border-radius: 10px;
   padding-block: 25px;
   padding-inline: 45px;
-  margin-block: 25px;
 }
 
 .navigation__title {

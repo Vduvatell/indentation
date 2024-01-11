@@ -1,10 +1,15 @@
-.results__container {
+.results {
+  padding-top: 25px;
+}
+
+.container__results {
   margin-inline: auto;
   max-width: 1140px;
   background-color: #F1F1F1;
   border-radius: 10px;
   padding-block: 25px;
   padding-inline: 30px 45px;
+  background: #F1F1F1;
 }
 
 .results__title {
