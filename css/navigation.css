@@ -21,6 +21,7 @@
 
 .navigation__item {
   line-height: 120%;
+  color: #02535F;
 }
 
 .navigation__item:not(:last-child) {

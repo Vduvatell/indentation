@@ -120,16 +120,20 @@ iframe {
   padding-block: 60px 50px;
 }
 
-.container {
-  max-width: 1140px;
-  padding: 25px 30px;
-  margin: 0 auto;
+.wrap {
+  padding-block: 25px;
 }
 
-.container__article-first {
+.wrap:first-child {
   padding-top: 0;
 }
 
-.container__results {
+.wrap:last-child {
   padding-bottom: 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding-inline: 30px;
+  margin: 0 auto;
 }

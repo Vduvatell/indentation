@@ -16,7 +16,7 @@
 </head>
 <body>
   <article class="article">
-    <div class="container container__article-first">
+    <div class="container container_article-first wrap">
       <h1 class="article__title">Отступы в вёрстке: margin и padding</h1>
 
       <p class="article__text">
@@ -28,39 +28,36 @@
       </p>
     </div>
 
-    <nav class="navigation">
+    <nav class="navigation wrap">
       <div class="container navigation-container">
         <h2 class="navigation__title">Содержание:</h2>
 
-          <ul class="navigation__list">
+          <ol class="navigation__list">
 
             <li class="navigation__item">
-              <span class="navigation__number">1.</span>
               <a class="navigation__link" href="#two">
                 Отступ задается от предыдущего элемента к следующему
               </a>
             </li>
 
             <li class="navigation__item">
-              <span class="navigation__number">2.</span>
               <a class="navigation__link" href="#three">
                 Отступ задается последнему возможному элементу в DOM-дереве
               </a>
             </li>
 
             <li class="navigation__item">
-              <span class="navigation__number">3.</span>
               <a class="navigation__link" href="#four">
                 Для последнего элемента группы отступ обнуляется
               </a>
             </li>
 
-          </ul>
+          </щl>
         </div>
       </nav>
 
 
-    <section id="two" class="indent-next-el">
+    <section id="two" class="indent-next-el wrap">
       <div class="container">
         <h2 class="indent-next-el__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
 
@@ -107,7 +104,7 @@
     </section>
 
 
-    <section id="three" class="indent-last-dom">
+    <section id="three" class="indent-last-dom wrap">
       <div class="container">
         <h2 class="indent-last-dom__title">Отступ задается последнему возможному элементу в DOM-дереве</h2>
 
@@ -155,7 +152,7 @@
     </section>
 
 
-    <section id="four" class="reset-last-el">
+    <section id="four" class="reset-last-el wrap">
       <div class="container">
         <h2 class="reset-last-el__title">Для последнего элемента группы отступ всегда обнуляется</h2>
 
@@ -200,8 +197,8 @@
     </section>
 
 
-    <section class="results">
-      <div class="container container__results">
+    <section class="results wrap">
+      <div class="container container_results">
         <h2 class="results__title">Подытожим:</h2>
 
         <ul class="results__list">
